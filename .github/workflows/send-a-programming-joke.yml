@@ -10,7 +10,26 @@ jobs:
   send-a-programming-joke:
     runs-on: ubuntu-latest
     steps:
-    - name: execute curl
-      run: curl --location --request GET 'https://official-joke-api.appspot.com/jokes/programming/random' | jq -r '.[0].setup','.[0].punchline'
-    - name: throw error
+    - name: fetch-joke
+      run: |
+        response = $(curl --location --request GET 'https://official-joke-api.appspot.com/jokes/programming/random' | jq -r '.[0].setup','.[0].punchline')
+    - name: exit here
       run: exit 1
+    - name: Send mail
+      if: failure()
+      uses: dawidd6/action-send-mail@v2
+      with:
+        # mail server settings
+        server_address: smtp.gmail.com
+        server_port: 465
+        # user credentials
+        username: ${{ secrets.EMAIL_USERNAME }}
+        password: ${{ secrets.EMAIL_PASSWORD }}
+        # email subject
+        subject: send me a programming joke
+        # email body as text
+        body: ${{ response }}
+        # comma-separated string, send email to
+        to: mail2prajwal12@gmail.com,abhi03989@gmail.com
+        # from email name
+        from: Prajwal Acharya
