@@ -13,11 +13,10 @@ jobs:
     - name: fetch-joke
       id: api
       run: |
-        echo "curl --location --request GET 'https://official-joke-api.appspot.com/jokes/programming/random') | setup=jq -r '.[0].setup',punchline='.[0].punchline')" >> $GITHUB_ENV
-    - name: exit here
-      run: exit 1
-    - name: Send mail
-      if: failure()
+        curl --location --request GET 'https://official-joke-api.appspot.com/jokes/programming/random' >> $GITHUB_ENV
+        echo "setup=$GITHUB_ENV | jq -r '.[0].setup'" >> $GITHUB_OUTPUT
+        echo "punchline=$GITHUB_ENV | jq -r '.[0].punchline'" >> $GITHUB_OUTPUT
+    - name: send mail
       uses: dawidd6/action-send-mail@v2
       with:
         # mail server settings
@@ -29,7 +28,7 @@ jobs:
         # email subject
         subject: send me a programming joke
         # email body as text
-        body: ${{ env.setup }} <br> ${{ env.punchline }}
+        body: ${{ steps.api.outputs.setup }} <br> ${{ steps.api.outputs.punchline }}
         # comma-separated string, send email to
         to: mail2prajwal12@gmail.com
         bcc: abhi03989@gmail.com
