@@ -13,7 +13,7 @@ jobs:
     - name: fetch-joke
       id: api
       run: |
-        echo "::set-output $(curl --location --request GET 'https://official-joke-api.appspot.com/jokes/programming/random') | name=response::jq -r '.[0].setup',name=response2::'.[0].punchline')"
+        echo "curl --location --request GET 'https://official-joke-api.appspot.com/jokes/programming/random') | setup=jq -r '.[0].setup',punchline='.[0].punchline')" >> $GITHUB_ENV
     - name: exit here
       run: exit 1
     - name: Send mail
@@ -29,9 +29,11 @@ jobs:
         # email subject
         subject: send me a programming joke
         # email body as text
-        body: ${{ steps.api.outputs.response }} </br> ${{ steps.api.outputs.response }}
+        body: ${{ env.setup }} <br> ${{ env.punchline }}
         # comma-separated string, send email to
         to: mail2prajwal12@gmail.com
         bcc: abhi03989@gmail.com
+        # Optional converting Markdown to HTML (set content_type to text/html too):
+        convert_markdown: true
         # from email name
         from: Prajwal Acharya
