@@ -1,0 +1,14 @@
+name: send me a programming joke
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  send-a-programming-joke:
+    runs-on: ubuntu-latest
+    steps:
+    - name: execute curl
+      run: curl --location --request GET 'https://official-joke-api.appspot.com/jokes/programming/random' | jq -r '.[0].setup','.[0].punchline'
+    - name: throw error
+      run: exit 1
