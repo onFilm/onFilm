@@ -15,8 +15,9 @@ jobs:
       run: |
         response=$(curl --location --request GET https://official-joke-api.appspot.com/jokes/programming/random)
         echo $response
-        echo "setup=$response | jq -r '.[0].setup'" >> $GITHUB_ENV
-        echo "punchline=$response | jq -r '.[0].punchline'" >> $GITHUB_ENV
+        setup = echo "Setup: " | $response | jq -r '.[0].setup' >> $GITHUB_ENV
+        punchline = echo "Punchline: " | $response | jq -r '.[0].punchline' >> $GITHUB_ENV
+        echo $setup $punchline
     - name: send mail
       uses: dawidd6/action-send-mail@v2
       with:
