@@ -30,10 +30,12 @@ jobs:
         # email subject
         subject: send me a programming joke
         # email body as text
-        html_body: ${{ env.joke }}
+        body: ${{ env.joke }}
         # comma-separated string, send email to
         to: mail2prajwal12@gmail.com
         bcc: abhi03989@gmail.com
+        # Optional converting Markdown to HTML (set content_type to text/html too):
+        convert_markdown: true
         # set content_type to text/html:
         content_type: text/html
         # from email name
