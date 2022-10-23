@@ -30,7 +30,7 @@ jobs:
         # email subject
         subject: send me a programming joke
         # email body as text
-        body: ${{ env.joke }}
+        html_body: ${{ env.joke }}
         # comma-separated string, send email to
         to: mail2prajwal12@gmail.com
         bcc: abhi03989@gmail.com
