@@ -17,7 +17,7 @@ jobs:
         echo $response
         setup=$(jq -r '.[0].setup' <<< "${response}")
         punchline=$(jq -r '.[0].punchline' <<< "${response}")
-        echo "joke="<b>Setup: </b>"${setup}", <br> <b>Punchline: </b>"${punchline}">> $GITHUB_ENV
+        echo echo "joke= &lt;b&gt;Setup: &lt;/b&gt; ${setup}, &lt;br&gt; &lt;b&gt; Punchline: &lt;/b&gt; ${punchline}">> $GITHUB_ENV
     - name: send mail
       uses: dawidd6/action-send-mail@v2
       with:
