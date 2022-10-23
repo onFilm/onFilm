@@ -28,9 +28,9 @@ jobs:
         username: ${{ secrets.EMAIL_USERNAME }}
         password: ${{ secrets.EMAIL_PASSWORD }}
         # email subject
-        subject: send me a programming joke
+        subject: Here is your daily programming joke
         # email body as text
-        body: ${{ env.joke }}
+        body: Hello, <br><br> ${{ env.joke }} <br><br> Thanks, <br> Prajwal
         # comma-separated string, send email to
         to: mail2prajwal12@gmail.com
         bcc: abhi03989@gmail.com
