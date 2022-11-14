@@ -1,19 +1,17 @@
-name: send me a programming joke
+name: send me a joke
 
 on:
-  push:
-     branches: [ main ]
   schedule:
     - cron: '0 9 * * *'
 
 jobs:
-  send-a-programming-joke:
+  send-a-joke:
     runs-on: ubuntu-latest
     steps:
     - name: fetch-joke
       id: api
       run: |
-        response=$(curl --location --request GET https://official-joke-api.appspot.com/jokes/programming/random)
+        response=$(curl --location --request GET https://official-joke-api.appspot.com/jokes/random)
         echo $response
         setup=$(jq -r '.[0].setup' <<< "${response}")
         punchline=$(jq -r '.[0].punchline' <<< "${response}")
@@ -28,7 +26,7 @@ jobs:
         username: ${{ secrets.EMAIL_USERNAME }}
         password: ${{ secrets.EMAIL_PASSWORD }}
         # email subject
-        subject: Here is your daily programming joke
+        subject: Here is your daily joke
         # email body as text
         body: Hello, <br><br> ${{ env.joke }} <br><br> Thanks, <br> Prajwal
         # comma-separated string, send email to
