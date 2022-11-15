@@ -11,6 +11,7 @@ jobs:
     - name: fetch-joke
       id: api
       run: |
+        #!/usr/bin/env bash
         response=$(curl --location --request GET https://official-joke-api.appspot.com/jokes/random)
         echo $response
         setup=$(jq -r '.setup' <<< "${response}")
