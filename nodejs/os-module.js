@@ -28,5 +28,5 @@ const asyncRead = fs.readFile('./test.txt', 'utf8', (err, result) => {
         console.log("using node readFile method : ", result);
     }
 })
-// console.log("Current System Info \n", currentSystemInfo);
-// console.log("System Path Seperator \n", pathInfo);
+
+module.exports = { currentSystemInfo, pathInfo }
