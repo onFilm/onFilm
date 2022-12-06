@@ -1,8 +1,14 @@
-.green {
+.correct {
     color: green;
     font-weight: bold;
 }
 
-.red {
+.wrong {
     color: red;
+    font-weight: bold;
+}
+
+.pending {
+    color: black;
+    font-style: normal;
 }
