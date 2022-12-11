@@ -2,18 +2,21 @@ name: apod-data-extractor
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 4 * * *'
+  workflow_dispatch:
 
 jobs:
   apod-data-extractor:
     runs-on: ubuntu-latest
     steps:
-      - name: git checkout and setup node 
+      - name: git checkout
         uses: actions/checkout@v2
+      - name: setup node 
         uses: actions/setup-node@v2
         with:
           node-version: '16'
-      - run: cd apod-data-extractor    
+      - run: pwd
+      - run: cd apod-data-extractor && tree -d
       - run: npm install
       - run: npm run start
       - name: Commit changes
