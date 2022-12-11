@@ -3,6 +3,7 @@ name: apod-data-extractor
 on:
   schedule:
     - cron: '0 4 * * *'
+  workflow_dispatch:
 
 jobs:
   apod-data-extractor:
