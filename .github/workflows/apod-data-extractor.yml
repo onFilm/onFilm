@@ -16,8 +16,7 @@ jobs:
         with:
           node-version: '16'
       - run: pwd
-      - run: cd apod-data-extractor
-      - run: tree -d
+      - run: cd /apod-data-extractor && tree -d
       - run: npm install
       - run: npm run start
       - name: Commit changes
