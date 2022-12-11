@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '16'
       - run: pwd
-      - run: tree -d /onFilm
+      - run: tree -d onFilm
       - run: cd apod-data-extractor    
       - run: npm install
       - run: npm run start
