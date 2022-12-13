@@ -28,4 +28,4 @@ jobs:
 
           jq '.[] += ${response}" extracted_data.json
 
-          echo "$(<extracted_data.json)"
+          cat extracted_data.json
