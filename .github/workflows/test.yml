@@ -14,17 +14,16 @@ jobs:
           #!/bin/bash
           echo "Hello World"
 
-          date=$(date +%Y-%m-%d)
-          response=$(curl --location --request GET 'https://apod.ellanan.com/api?date='$date)
-          echo $response
-
-          startdate='2018-03-28'
-          enddate='2018-04-02'
+          startdate='2022-01-01'
+          enddate='2022-01-30'
 
           enddate=$( date -d "$enddate + 1 day" +%Y-%m-%d )   # rewrite in YYYYMMDD format
                                                             #  and take last iteration into account
           thedate=$( date -d "$startdate" +%Y-%m-%d )
           while [ "$thedate" != "$enddate" ]; do
               printf 'The date is "%s"\n' "$thedate"
-              thedate=$( date -d "$thedate + 1 days" +%Y%m%d ) # increment by one day
+              thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
           done
+
+          response=$(curl --location --request GET 'https://apod.ellanan.com/api?date='$date)
+          echo $response
