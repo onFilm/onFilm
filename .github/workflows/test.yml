@@ -15,6 +15,6 @@ jobs:
           echo "Hello World"
           firstJsonoObj='[]'
           response=$(curl --location --request GET 'https://apod.ellanan.com/api?date=2022-01-01')
-          jq '. += ' $firstJsonoObj $response
+          jq += $firstJsonoObj $response
           echo $response
           echo $firstJsonoObj
