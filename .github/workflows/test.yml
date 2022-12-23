@@ -16,7 +16,7 @@ jobs:
           startdate='2022-01-01'
           enddate='2022-01-05'
           thedate=$( date -d "$startdate" +%Y-%m-%d )
-          extracted_json = '[]'
+          extracted_json = []
           while [ "$thedate" != "$enddate" ]; do
               printf 'The date is "%s"\n' "$thedate"
               thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
