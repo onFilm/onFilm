@@ -9,23 +9,24 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: run shell scirpt
+      - name: run shell script
         run: |
           #!/bin/bash
-          echo "Hello World"
-
+          set -o noclobber
           startdate='2022-01-01'
-          enddate='2022-01-30'
+          enddate='2022-01-10'
           thedate=$( date -d "$startdate" +%Y-%m-%d )
-
+          echo '[]' > extracted.json
+          
           while [ "$thedate" != "$enddate" ]; do
               printf 'The date is "%s"\n' "$thedate"
               thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
-
               response=$(curl --location --request GET 'https://apod.ellanan.com/api?date='$thedate)
+              echo "==============================================RESPONSE============================================================"
               echo $response
+              echo "==============================================END RESPONSE========================================================"
+              echo "$(<extracted.json)" | jq '. + ['"${response}"']' >| extracted.json
           done
 
-          #jq '.[] += ${response}" extracted_data.json
+          echo "$(<extracted.json)"
 
-          echo "$(<extracted_data.json)"
