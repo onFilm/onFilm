@@ -21,8 +21,7 @@ jobs:
               thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
               response=$(curl --location --request GET 'https://apod.ellanan.com/api?date='$thedate)
               echo $response
-              '[]' | jq '. + ['"${response}"']' | $extracted_json
-              echo $extracted_json
+              echo '[]' | jq '. + ['"${response}"']'
           done
 
           echo $extracted_json
