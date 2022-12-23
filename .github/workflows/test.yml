@@ -12,7 +12,7 @@ jobs:
       - name: run shell script
         run: |
           #!/bin/bash
-          set +o noclobber 
+          set -o noclobber
           startdate='2022-01-01'
           enddate='2022-01-10'
           thedate=$( date -d "$startdate" +%Y-%m-%d )
