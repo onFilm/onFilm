@@ -12,9 +12,9 @@ jobs:
       - name: run shell script
         run: |
           #!/bin/bash
-
+          set +o noclobber 
           startdate='2022-01-01'
-          enddate='2022-01-31'
+          enddate='2022-01-10'
           thedate=$( date -d "$startdate" +%Y-%m-%d )
           echo '[]' > extracted.json
           
@@ -25,7 +25,7 @@ jobs:
               echo "==============================================RESPONSE============================================================"
               echo $response
               echo "==============================================END RESPONSE========================================================"
-              echo "$(<extracted.json)" | jq '. + ['"${response}"']' | tee -a extracted.json
+              echo "$(<extracted.json)" | jq '. + ['"${response}"']' > extracted.json
           done
           
           cat extracted.json
