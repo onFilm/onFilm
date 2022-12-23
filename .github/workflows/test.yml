@@ -25,7 +25,7 @@ jobs:
               echo "==============================================RESPONSE============================================================"
               echo $response
               echo "==============================================END RESPONSE========================================================"
-              echo "$(<extracted.json)" | jq '. + ['"${response}"']' > extracted.json
+              echo "$(<extracted.json)" | jq '. + ['"${response}"']' >| extracted.json
           done
           
           cat extracted.json
