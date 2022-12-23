@@ -14,7 +14,7 @@ jobs:
           #!/bin/bash
 
           startdate='2022-01-01'
-          enddate='2022-01-05'
+          enddate='2022-01-31'
           thedate=$( date -d "$startdate" +%Y-%m-%d )
           echo '[]' > extracted.json
           
