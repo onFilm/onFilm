@@ -22,6 +22,7 @@ jobs:
               response=$(curl --location --request GET 'https://apod.ellanan.com/api?date='$thedate)
               echo $response
               '[]' | jq '. + ['"${response}"']' | $extracted_json
+              echo $extracted_json
           done
 
           echo $extracted_json
