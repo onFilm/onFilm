@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class ComponentsHomeComponent {
 
+  data = [
+    { name: 'James', age:24, job: 'Designer' },
+    { name: 'Jill', age:26, job: 'Engineer' },
+    { name: 'Elyse', age:25, job: 'Engineer' }
+  ];
+
+  headers = [
+    { key: 'name', label: 'Name'},
+    { key: 'age', label: 'Age'},
+    { key: 'job', label: 'Job' }
+  ];
+
 }
