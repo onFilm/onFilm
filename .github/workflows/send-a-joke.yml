@@ -19,7 +19,7 @@ jobs:
         setup=$(jq -r '.setup' <<< "${response}")
         punchline=$(jq -r '.punchline' <<< "${response}")
         echo "joke= <strong>Setup: </strong> ${setup}, <br> <strong>Punchline: </strong> ${punchline}">> $GITHUB_ENV
-        echo "slackjoke=```*Setup:* ${setup}, *Punchline:* ${punchline}"```>> $GITHUB_ENV
+        echo "slackjoke=*Setup:* ${setup}, *Punchline:* ${punchline}">> $GITHUB_ENV
     - name: send mail
       uses: dawidd6/action-send-mail@v2
       with:
@@ -45,7 +45,7 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
-        SLACK_MESSAGE: ${{ env.slackjoke }}
+        SLACK_MESSAGE: "```${{ env.slackjoke }}```"
         SLACK_TITLE: Daily joke 😜😝
         SLACK_COLOR: ${{ job.status }}
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
