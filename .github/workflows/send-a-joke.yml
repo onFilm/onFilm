@@ -6,7 +6,7 @@ on:
 
 jobs:
   send-a-joke:
-    name: Send Joke on Email
+    name: Send Joke on Email And Slack
     runs-on: ubuntu-latest
     steps:
     - name: fetch-joke
@@ -40,16 +40,11 @@ jobs:
         content_type: text/html
         # from email name
         from: Prajwal Acharya
-  slack-notification:
-    name: Send Joke on Slack
-    runs-on: ubuntu-latest
-    needs: send-a-joke
-    steps:
-    - uses: actions/checkout@v2
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_MESSAGE: ${{ env.joke }}
-        SLACK_TITLE: "Daily joke - `date +'%mmm-%dd'` 😜😝"
+        SLACK_TITLE: Daily joke - `date +'%mmm-%dd'` 😜😝
         SLACK_COLOR: ${{ job.status }}
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+
