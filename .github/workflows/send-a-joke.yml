@@ -45,7 +45,7 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
-        SLACK_MESSAGE: "```${{ env.slackjoke }}```"
+        SLACK_MESSAGE: ${{ env.slackjoke }}
         SLACK_TITLE: Daily joke 😜😝
         SLACK_COLOR: ${{ job.status }}
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
