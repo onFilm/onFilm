@@ -36,18 +36,26 @@ jobs:
 
       - name: Update CSV & JSON Logs
         run: |
+          mkdir -p jokes
           csv_file="jokes/stats.csv"
           json_file="jokes/stats.json"
-          mkdir -p jokes
+      
+          # Read environment variables into Bash variables
+          setup="$setup"
+          punchline="$punchline"
+      
+          # Compute joke length
+          joke_length=$(( ${#setup} + ${#punchline} ))
+      
           # Add CSV header if missing
           if [ ! -f "$csv_file" ]; then
             echo "date,setup,punchline,length" > "$csv_file"
           fi
-          # Compute joke length in Bash
-          joke_length=$(( ${#setup} + ${#punchline} ))
+      
           # Append to CSV
           echo "$(date +%Y-%m-%d),$setup,$punchline,$joke_length" >> "$csv_file"
-          # Update JSON
+      
+          # Append to JSON
           if [ -f "$json_file" ]; then
             jq --arg d "$(date +%Y-%m-%d)" \
                --arg s "$setup" \
