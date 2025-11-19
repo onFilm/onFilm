@@ -34,38 +34,38 @@ jobs:
           echo "${{ env.joke }}" >> "$month_file"
           echo "" >> "$month_file"
 
-      # - name: Update CSV & JSON Logs
-      #   run: |
-      #     mkdir -p jokes
-      #     csv_file="jokes/stats.csv"
-      #     json_file="jokes/stats.json"
+      - name: Update CSV & JSON Logs
+        run: |
+          mkdir -p jokes
+          csv_file="jokes/stats.csv"
+          json_file="jokes/stats.json"
       
-      #     # Read environment variables into Bash variables
-      #     setup="$setup"
-      #     punchline="$punchline"
+          # Read environment variables into Bash variables
+          setup="$setup"
+          punchline="$punchline"
       
-      #     # Compute joke length
-      #     joke_length=$(( ${#setup} + ${#punchline} ))
+          # Compute joke length
+          joke_length=$(( ${#setup} + ${#punchline} ))
       
-      #     # Add CSV header if missing
-      #     if [ ! -f "$csv_file" ]; then
-      #       echo "date,setup,punchline,length" > "$csv_file"
-      #     fi
+          # Add CSV header if missing
+          if [ ! -f "$csv_file" ]; then
+            echo "date,setup,punchline,length" > "$csv_file"
+          fi
       
-      #     # Append to CSV
-      #     echo "$(date +%Y-%m-%d),$setup,$punchline,$joke_length" >> "$csv_file"
+          # Append to CSV
+          echo "$(date +%Y-%m-%d),$setup,$punchline,$joke_length" >> "$csv_file"
       
-      #     # Append to JSON
-      #     if [ -f "$json_file" ]; then
-      #       jq --arg d "$(date +%Y-%m-%d)" \
-      #          --arg s "$setup" \
-      #          --arg p "$punchline" \
-      #          --argjson l "$joke_length" \
-      #          '.jokes += [{"date": $d, "setup": $s, "punchline": $p, "length": $l}]' \
-      #          "$json_file" > tmp.json && mv tmp.json "$json_file"
-      #     else
-      #       echo "{\"jokes\":[{\"date\":\"$(date +%Y-%m-%d)\",\"setup\":\"$setup\",\"punchline\":\"$punchline\",\"length\":$joke_length}]}" > "$json_file"
-      #     fi
+          # Append to JSON
+          if [ -f "$json_file" ]; then
+            jq --arg d "$(date +%Y-%m-%d)" \
+               --arg s "$setup" \
+               --arg p "$punchline" \
+               --argjson l "$joke_length" \
+               '.jokes += [{"date": $d, "setup": $s, "punchline": $p, "length": $l}]' \
+               "$json_file" > tmp.json && mv tmp.json "$json_file"
+          else
+            echo "{\"jokes\":[{\"date\":\"$(date +%Y-%m-%d)\",\"setup\":\"$setup\",\"punchline\":\"$punchline\",\"length\":$joke_length}]}" > "$json_file"
+          fi
 
       - name: Compute Stats
         id: stats
