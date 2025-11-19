@@ -39,13 +39,25 @@ jobs:
           csv_file="jokes/stats.csv"
           json_file="jokes/stats.json"
           mkdir -p jokes
-          echo "date,setup,punchline,length" >> "$csv_file" 2>/dev/null || true
-          echo "${{ github.run_id }},${{ env.setup }},${{ env.punchline }},$(( ${#env.setup} + ${#env.punchline} ))" >> "$csv_file"
+          # Add CSV header if missing
+          if [ ! -f "$csv_file" ]; then
+            echo "date,setup,punchline,length" > "$csv_file"
+          fi
+          # Compute joke length in Bash
+          joke_length=$(( ${#setup} + ${#punchline} ))
+          # Append to CSV
+          echo "$(date +%Y-%m-%d),$setup,$punchline,$joke_length" >> "$csv_file"
           # Update JSON
-          jq --arg d "$(date +%Y-%m-%d)" --arg s "${{ env.setup }}" --arg p "${{ env.punchline }}" \
-             --argjson l $(( ${#env.setup} + ${#env.punchline} )) \
-             '.jokes += [{"date": $d, "setup": $s, "punchline": $p, "length": $l}]' \
-             jokes/stats.json 2>/dev/null || echo '{"jokes":[{"date":"'"$(date +%Y-%m-%d)"'","setup":"'"${{ env.setup }}"'","punchline":"'"${{ env.punchline }}"'","length":'"$(( ${#env.setup} + ${#env.punchline} ))"'}]}' > jokes/stats.json
+          if [ -f "$json_file" ]; then
+            jq --arg d "$(date +%Y-%m-%d)" \
+               --arg s "$setup" \
+               --arg p "$punchline" \
+               --argjson l "$joke_length" \
+               '.jokes += [{"date": $d, "setup": $s, "punchline": $p, "length": $l}]' \
+               "$json_file" > tmp.json && mv tmp.json "$json_file"
+          else
+            echo "{\"jokes\":[{\"date\":\"$(date +%Y-%m-%d)\",\"setup\":\"$setup\",\"punchline\":\"$punchline\",\"length\":$joke_length}]}" > "$json_file"
+          fi
 
       - name: Compute Stats
         id: stats
