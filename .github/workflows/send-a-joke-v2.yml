@@ -1,0 +1,137 @@
+name: send me a joke
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  send-a-joke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: fetch-joke
+        id: api
+        run: |
+          response=$(curl --location --request GET https://official-joke-api.appspot.com/jokes/random)
+          setup=$(jq -r '.setup' <<< "${response}")
+          punchline=$(jq -r '.punchline' <<< "${response}")
+          # Save formatted joke
+          joke_html="<strong>Setup:</strong> ${setup}<br><strong>Punchline:</strong> ${punchline}"
+          echo "joke=${joke_html}" >> $GITHUB_ENV
+          echo "setup=${setup}" >> $GITHUB_ENV
+          echo "punchline=${punchline}" >> $GITHUB_ENV
+
+      - name: Ensure Jokes Directory
+        run: mkdir -p jokes
+
+      - name: Save Joke to Monthly File
+        run: |
+          month_file="jokes/$(date +%Y-%m).txt"
+          echo "----- $(date +%Y-%m-%d) -----" >> "$month_file"
+          echo "${{ env.joke }}" >> "$month_file"
+          echo "" >> "$month_file"
+
+      - name: Update CSV & JSON Logs
+        run: |
+          csv_file="jokes/stats.csv"
+          json_file="jokes/stats.json"
+          mkdir -p jokes
+          echo "date,setup,punchline,length" >> "$csv_file" 2>/dev/null || true
+          echo "${{ github.run_id }},${{ env.setup }},${{ env.punchline }},$(( ${#env.setup} + ${#env.punchline} ))" >> "$csv_file"
+          # Update JSON
+          jq --arg d "$(date +%Y-%m-%d)" --arg s "${{ env.setup }}" --arg p "${{ env.punchline }}" \
+             --argjson l $(( ${#env.setup} + ${#env.punchline} )) \
+             '.jokes += [{"date": $d, "setup": $s, "punchline": $p, "length": $l}]' \
+             jokes/stats.json 2>/dev/null || echo '{"jokes":[{"date":"'"$(date +%Y-%m-%d)"'","setup":"'"${{ env.setup }}"'","punchline":"'"${{ env.punchline }}"'","length":'"$(( ${#env.setup} + ${#env.punchline} ))"'}]}' > jokes/stats.json
+
+      - name: Compute Stats
+        id: stats
+        run: |
+          month_file="jokes/$(date +%Y-%m).txt"
+          total_jokes=$(grep -h "-----" jokes/*.txt | wc -l | xargs)
+          jokes_this_month=$(grep -h "-----" "$month_file" | wc -l | xargs)
+          first_joke=$(grep -h "-----" jokes/*.txt | head -1 | sed 's/----- \(.*\) -----.*/\1/')
+          last_joke=$(grep -h "-----" jokes/*.txt | tail -1 | sed 's/----- \(.*\) -----.*/\1/')
+          # Longest joke of the month
+          longest_joke=$(jq '.jokes | max_by(.length) | "\(.setup) - \(.punchline)"' jokes/stats.json)
+          # ASCII trend chart (simple bars)
+          trend=$(grep -h "-----" "$month_file" | nl | awk '{printf "%s: %s\n", $1, gensub(/./,"▇","g",$1)}')
+          echo "TOTAL_JOKES=$total_jokes" >> $GITHUB_ENV
+          echo "JOKES_THIS_MONTH=$jokes_this_month" >> $GITHUB_ENV
+          echo "FIRST_JOKE=$first_joke" >> $GITHUB_ENV
+          echo "LAST_JOKE=$last_joke" >> $GITHUB_ENV
+          echo "LONGEST_JOKE=$longest_joke" >> $GITHUB_ENV
+          echo "TREND=$trend" >> $GITHUB_ENV
+
+      - name: Send Email
+        uses: dawidd6/action-send-mail@v2
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "😂 Your Daily Joke Is Here!"
+          body: |
+            <div style="font-family: Arial, sans-serif; font-size:16px; line-height:1.6; padding:20px; background:#f7f8fa;">
+              <h2>🌤️ Daily Joke Delivery</h2>
+              <p style="margin: 0; font-size: 14px; color: #666;">
+                Your daily dose of laughter for <strong>${{ github.event.schedule || github.event.workflow_dispatch && 'today' }} 😄</strong>
+              </p>
+              <div style="background:#fff; border-left:5px solid #007bff; padding:15px; margin:10px 0;">
+                ${{ env.joke }}
+              </div>
+              <h3>📊 Stats</h3>
+              <ul>
+                <li><strong>Total jokes sent:</strong> ${{ env.TOTAL_JOKES }} 🎉</li>
+                <li><strong>Jokes this month:</strong> ${{ env.JOKES_THIS_MONTH }} 📅</li>
+                <li><strong>First joke:</strong> ${{ env.FIRST_JOKE }} 🏁</li>
+                <li><strong>Latest joke:</strong> ${{ env.LAST_JOKE }} 🔄</li>
+                <li><strong>Funniest joke of month:</strong> ${{ env.LONGEST_JOKE }} 🤣</li>
+              </ul>
+              <p>Thanks for reading — hope this gave you a smile! 😁</p>
+              <pre>${{ env.TREND }}</pre>
+              <p>Cheers,<br><strong>Prajwal</strong> ✨</p>
+            </div>
+          to: mail2prajwal12@gmail.com
+          bcc: abhi03989@gmail.com
+          convert_markdown: true
+          content_type: text/html
+          from: Prajwal Acharya
+
+      - name: Update GitHub Pages Website
+        run: |
+          mkdir -p website/monthly
+          # Index page with latest joke
+          echo "<h1>Latest Joke</h1><p>${{ env.joke }}</p>" > website/index.html
+          # Stats page
+          echo "<h1>Joke Stats</h1>
+          <ul>
+            <li>Total jokes sent: ${{ env.TOTAL_JOKES }}</li>
+            <li>Jokes this month: ${{ env.JOKES_THIS_MONTH }}</li>
+            <li>Funniest joke of month: ${{ env.LONGEST_JOKE }}</li>
+          </ul>" > website/stats.html
+          # Monthly archive
+          month_file="jokes/$(date +%Y-%m).txt"
+          html_month="website/monthly/$(date +%Y-%m).html"
+          echo "<h1>Jokes for $(date +%Y-%m)</h1>" > "$html_month"
+          awk '{print "<p>" $0 "</p>"}' "$month_file" >> "$html_month"
+          # Random joke JS
+          mkdir -p website/js
+          cat <<'EOF' > website/js/main.js
+          function randomJoke() {
+            const jokes = Array.from(document.querySelectorAll('p'));
+            const joke = jokes[Math.floor(Math.random()*jokes.length)].innerHTML;
+            alert("Random Joke:\n\n" + joke);
+          }
+          EOF
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add jokes/ website/
+          TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
+          git commit -m "Update joke, logs, stats, and website at $TIMESTAMP"
+          git push
