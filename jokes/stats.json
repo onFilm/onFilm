@@ -23,6 +23,12 @@
       "setup": "How good are you at Power Point?",
       "punchline": "I Excel at it.",
       "length": 46
+    },
+    {
+      "date": "2025-11-23",
+      "setup": "How many tickles does it take to tickle an octopus?",
+      "punchline": "Ten-tickles!",
+      "length": 63
     }
   ]
 }
