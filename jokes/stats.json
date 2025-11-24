@@ -29,6 +29,12 @@
       "setup": "How many tickles does it take to tickle an octopus?",
       "punchline": "Ten-tickles!",
       "length": 63
+    },
+    {
+      "date": "2025-11-24",
+      "setup": "Why did the programmer go to art school?",
+      "punchline": "He wanted to learn how to code outside the box.",
+      "length": 87
     }
   ]
 }
