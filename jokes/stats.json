@@ -71,6 +71,12 @@
       "setup": "What do you call a thieving alligator?",
       "punchline": "A crookodile!",
       "length": 51
+    },
+    {
+      "date": "2025-12-01",
+      "setup": "The Sergeant-Major growled at the young soldier: I didn’t see you at camouflage training this morning.",
+      "punchline": "Thank you very much, sir.",
+      "length": 127
     }
   ]
 }
