@@ -125,6 +125,12 @@
       "setup": "Why did the programmer quit their job?",
       "punchline": "They didn't get arrays.",
       "length": 61
+    },
+    {
+      "date": "2025-12-10",
+      "setup": "Why did the programmer quit his job?",
+      "punchline": "Because he didn't get arrays.",
+      "length": 65
     }
   ]
 }
