@@ -131,6 +131,12 @@
       "setup": "Why did the programmer quit his job?",
       "punchline": "Because he didn't get arrays.",
       "length": 65
+    },
+    {
+      "date": "2025-12-11",
+      "setup": "Why do chicken coops only have two doors?",
+      "punchline": "Because if they had four, they would be chicken sedans",
+      "length": 95
     }
   ]
 }

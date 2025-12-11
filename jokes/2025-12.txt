@@ -28,3 +28,6 @@
 ----- 2025-12-10 -----
 <strong>Setup:</strong> Why did the programmer quit his job?<br><strong>Punchline:</strong> Because he didn't get arrays.
 
+----- 2025-12-11 -----
+<strong>Setup:</strong> Why do chicken coops only have two doors?<br><strong>Punchline:</strong> Because if they had four, they would be chicken sedans
+
