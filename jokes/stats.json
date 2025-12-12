@@ -137,6 +137,12 @@
       "setup": "Why do chicken coops only have two doors?",
       "punchline": "Because if they had four, they would be chicken sedans",
       "length": 95
+    },
+    {
+      "date": "2025-12-12",
+      "setup": "A SQL query walks into a bar, walks up to two tables and asks...",
+      "punchline": "'Can I join you?'",
+      "length": 81
     }
   ]
 }
