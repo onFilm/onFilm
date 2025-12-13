@@ -34,3 +34,6 @@
 ----- 2025-12-12 -----
 <strong>Setup:</strong> A SQL query walks into a bar, walks up to two tables and asks...<br><strong>Punchline:</strong> 'Can I join you?'
 
+----- 2025-12-13 -----
+<strong>Setup:</strong> To understand what recursion is...<br><strong>Punchline:</strong> You must first understand what recursion is
+

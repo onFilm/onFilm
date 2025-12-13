@@ -143,6 +143,12 @@
       "setup": "A SQL query walks into a bar, walks up to two tables and asks...",
       "punchline": "'Can I join you?'",
       "length": 81
+    },
+    {
+      "date": "2025-12-13",
+      "setup": "To understand what recursion is...",
+      "punchline": "You must first understand what recursion is",
+      "length": 77
     }
   ]
 }
