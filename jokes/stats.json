@@ -173,6 +173,12 @@
       "setup": "Why are “Dad Jokes” so good?",
       "punchline": "Because the punchline is apparent.",
       "length": 62
+    },
+    {
+      "date": "2025-12-18",
+      "setup": "Why did the rooster cross the road?",
+      "punchline": "He heard that the chickens at KFC were pretty hot.",
+      "length": 85
     }
   ]
 }
