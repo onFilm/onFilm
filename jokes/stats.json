@@ -251,6 +251,12 @@
       "setup": "What time is it?",
       "punchline": "I don't know... it keeps changing.",
       "length": 50
+    },
+    {
+      "date": "2025-12-31",
+      "setup": "How do you find Will Smith in the snow?",
+      "punchline": "Look for fresh prints.",
+      "length": 61
     }
   ]
 }
