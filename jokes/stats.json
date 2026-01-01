@@ -257,6 +257,12 @@
       "setup": "How do you find Will Smith in the snow?",
       "punchline": "Look for fresh prints.",
       "length": 61
+    },
+    {
+      "date": "2026-01-01",
+      "setup": "What did the grape do when he got stepped on?",
+      "punchline": "He let out a little wine.",
+      "length": 70
     }
   ]
 }
