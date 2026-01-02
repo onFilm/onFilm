@@ -263,6 +263,12 @@
       "setup": "What did the grape do when he got stepped on?",
       "punchline": "He let out a little wine.",
       "length": 70
+    },
+    {
+      "date": "2026-01-02",
+      "setup": "Did you hear about the cow who jumped over the barbed wire fence?",
+      "punchline": "It was udder destruction.",
+      "length": 90
     }
   ]
 }
