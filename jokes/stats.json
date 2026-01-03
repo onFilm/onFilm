@@ -269,6 +269,12 @@
       "setup": "Did you hear about the cow who jumped over the barbed wire fence?",
       "punchline": "It was udder destruction.",
       "length": 90
+    },
+    {
+      "date": "2026-01-03",
+      "setup": "What do you get when you cross a snowman with a vampire?",
+      "punchline": "Frostbite.",
+      "length": 66
     }
   ]
 }
