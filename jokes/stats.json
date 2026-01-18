@@ -353,6 +353,12 @@
       "setup": "Did you know crocodiles could grow up to 15 feet?",
       "punchline": "But most just have 4.",
       "length": 70
+    },
+    {
+      "date": "2026-01-18",
+      "setup": "What do you get when you cross a React developer with a mathematician?",
+      "punchline": "A function component.",
+      "length": 91
     }
   ]
 }
