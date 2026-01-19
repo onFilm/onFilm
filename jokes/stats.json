@@ -359,6 +359,12 @@
       "setup": "What do you get when you cross a React developer with a mathematician?",
       "punchline": "A function component.",
       "length": 91
+    },
+    {
+      "date": "2026-01-19",
+      "setup": "Did you hear about the hungry clock?",
+      "punchline": "It went back four seconds.",
+      "length": 62
     }
   ]
 }
