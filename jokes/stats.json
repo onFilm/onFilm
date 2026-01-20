@@ -365,6 +365,12 @@
       "setup": "Did you hear about the hungry clock?",
       "punchline": "It went back four seconds.",
       "length": 62
+    },
+    {
+      "date": "2026-01-20",
+      "setup": "Why was the JavaScript developer sad?",
+      "punchline": "He didn't know how to null his feelings.",
+      "length": 77
     }
   ]
 }

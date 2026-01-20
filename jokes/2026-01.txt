@@ -52,3 +52,6 @@
 ----- 2026-01-19 -----
 <strong>Setup:</strong> Did you hear about the hungry clock?<br><strong>Punchline:</strong> It went back four seconds.
 
+----- 2026-01-20 -----
+<strong>Setup:</strong> Why was the JavaScript developer sad?<br><strong>Punchline:</strong> He didn't know how to null his feelings.
+
