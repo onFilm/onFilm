@@ -383,6 +383,12 @@
       "setup": "Why is peter pan always flying?",
       "punchline": "Because he neverlands",
       "length": 52
+    },
+    {
+      "date": "2026-01-23",
+      "setup": "Did you hear about the chameleon who couldn't change color?",
+      "punchline": "They had a reptile dysfunction.",
+      "length": 90
     }
   ]
 }
