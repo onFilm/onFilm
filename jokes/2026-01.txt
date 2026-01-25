@@ -67,3 +67,6 @@
 ----- 2026-01-24 -----
 <strong>Setup:</strong> Have you heard the rumor going around about butter?<br><strong>Punchline:</strong> Never mind, I shouldn't spread it.
 
+----- 2026-01-25 -----
+<strong>Setup:</strong> Have you ever heard of a music group called Cellophane?<br><strong>Punchline:</strong> They mostly wrap.
+

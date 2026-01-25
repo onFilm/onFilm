@@ -395,6 +395,12 @@
       "setup": "Have you heard the rumor going around about butter?",
       "punchline": "Never mind, I shouldn't spread it.",
       "length": 85
+    },
+    {
+      "date": "2026-01-25",
+      "setup": "Have you ever heard of a music group called Cellophane?",
+      "punchline": "They mostly wrap.",
+      "length": 72
     }
   ]
 }
