@@ -449,6 +449,12 @@
       "setup": "What kind of award did the dentist receive?",
       "punchline": "A little plaque.",
       "length": 59
+    },
+    {
+      "date": "2026-02-03",
+      "setup": "What did the left eye say to the right eye?",
+      "punchline": "Between us, something smells!",
+      "length": 72
     }
   ]
 }
