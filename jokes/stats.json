@@ -455,6 +455,12 @@
       "setup": "What did the left eye say to the right eye?",
       "punchline": "Between us, something smells!",
       "length": 72
+    },
+    {
+      "date": "2026-02-04",
+      "setup": "Why does it take longer to get from 1st to 2nd base, than it does to get from 2nd to 3rd base?",
+      "punchline": "Because there’s a Shortstop in between!",
+      "length": 133
     }
   ]
 }
