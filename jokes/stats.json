@@ -479,6 +479,12 @@
       "setup": "What's a computer's favorite snack?",
       "punchline": "Microchips.",
       "length": 46
+    },
+    {
+      "date": "2026-02-08",
+      "setup": "Why can’t you hear a pterodactyl go to the bathroom?",
+      "punchline": "The p is silent.",
+      "length": 68
     }
   ]
 }
