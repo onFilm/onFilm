@@ -539,6 +539,12 @@
       "setup": "I got hit in the head by a soda can, but it didn't hurt that much...",
       "punchline": "It was a soft drink.",
       "length": 88
+    },
+    {
+      "date": "2026-02-18",
+      "setup": "What do you call someone with no nose?",
+      "punchline": "Nobody knows.",
+      "length": 51
     }
   ]
 }
