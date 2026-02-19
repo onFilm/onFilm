@@ -545,6 +545,12 @@
       "setup": "What do you call someone with no nose?",
       "punchline": "Nobody knows.",
       "length": 51
+    },
+    {
+      "date": "2026-02-19",
+      "setup": "What is the tallest building in the world?",
+      "punchline": "The library, it’s got the most stories!",
+      "length": 81
     }
   ]
 }
