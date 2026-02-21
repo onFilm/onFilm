@@ -557,6 +557,12 @@
       "setup": "What do you call a cow with no legs?",
       "punchline": "Ground beef!",
       "length": 48
+    },
+    {
+      "date": "2026-02-21",
+      "setup": "Where do you learn to make banana splits?",
+      "punchline": "At sundae school.",
+      "length": 58
     }
   ]
 }
