@@ -563,6 +563,12 @@
       "setup": "Where do you learn to make banana splits?",
       "punchline": "At sundae school.",
       "length": 58
+    },
+    {
+      "date": "2026-02-22",
+      "setup": "Why was the developer always calm?",
+      "punchline": "Because they knew how to handle exceptions.",
+      "length": 77
     }
   ]
 }

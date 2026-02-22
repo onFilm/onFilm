@@ -61,3 +61,6 @@
 ----- 2026-02-21 -----
 <strong>Setup:</strong> Where do you learn to make banana splits?<br><strong>Punchline:</strong> At sundae school.
 
+----- 2026-02-22 -----
+<strong>Setup:</strong> Why was the developer always calm?<br><strong>Punchline:</strong> Because they knew how to handle exceptions.
+
