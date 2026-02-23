@@ -64,3 +64,6 @@
 ----- 2026-02-22 -----
 <strong>Setup:</strong> Why was the developer always calm?<br><strong>Punchline:</strong> Because they knew how to handle exceptions.
 
+----- 2026-02-23 -----
+<strong>Setup:</strong> How does a train eat?<br><strong>Punchline:</strong> It goes chew, chew
+
