@@ -581,6 +581,12 @@
       "setup": "I started a new business making yachts in my attic this year...",
       "punchline": "The sails are going through the roof.",
       "length": 100
+    },
+    {
+      "date": "2026-02-25",
+      "setup": "What happens to a frog's car when it breaks down?",
+      "punchline": "It gets toad away",
+      "length": 66
     }
   ]
 }
