@@ -605,6 +605,12 @@
       "setup": "Which song would an exception sing?",
       "punchline": "Can't catch me - Avicii",
       "length": 58
+    },
+    {
+      "date": "2026-03-01",
+      "setup": "What do you give a sick lemon?",
+      "punchline": "Lemonaid.",
+      "length": 39
     }
   ]
 }
