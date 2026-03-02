@@ -611,6 +611,12 @@
       "setup": "What do you give a sick lemon?",
       "punchline": "Lemonaid.",
       "length": 39
+    },
+    {
+      "date": "2026-03-02",
+      "setup": "How do you steal a coat?",
+      "punchline": "You jacket.",
+      "length": 35
     }
   ]
 }
