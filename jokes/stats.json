@@ -617,6 +617,12 @@
       "setup": "How do you steal a coat?",
       "punchline": "You jacket.",
       "length": 35
+    },
+    {
+      "date": "2026-03-03",
+      "setup": "Why did the burglar hang his mugshot on the wall?",
+      "punchline": "To prove that he was framed!",
+      "length": 77
     }
   ]
 }
