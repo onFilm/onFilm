@@ -623,6 +623,12 @@
       "setup": "Why did the burglar hang his mugshot on the wall?",
       "punchline": "To prove that he was framed!",
       "length": 77
+    },
+    {
+      "date": "2026-03-04",
+      "setup": "Why does Waldo only wear stripes?",
+      "punchline": "Because he doesn't want to be spotted.",
+      "length": 71
     }
   ]
 }
