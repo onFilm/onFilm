@@ -635,6 +635,12 @@
       "setup": "I'm reading a book about anti-gravity...",
       "punchline": "It's impossible to put down",
       "length": 67
+    },
+    {
+      "date": "2026-03-06",
+      "setup": "What do you get when you cross a bee and a sheep?",
+      "punchline": "A bah-humbug.",
+      "length": 62
     }
   ]
 }
