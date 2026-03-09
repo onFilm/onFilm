@@ -653,6 +653,12 @@
       "setup": "A ham sandwhich walks into a bar and orders a beer. The bartender says...",
       "punchline": "I'm sorry, we don't serve food here",
       "length": 108
+    },
+    {
+      "date": "2026-03-09",
+      "setup": "What do you call cheese by itself?",
+      "punchline": "Provolone.",
+      "length": 44
     }
   ]
 }
