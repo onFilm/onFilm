@@ -25,3 +25,6 @@
 ----- 2026-03-09 -----
 <strong>Setup:</strong> What do you call cheese by itself?<br><strong>Punchline:</strong> Provolone.
 
+----- 2026-03-10 -----
+<strong>Setup:</strong> 3 SQL statements walk into a NoSQL bar. Soon, they walk out<br><strong>Punchline:</strong> They couldn't find a table.
+

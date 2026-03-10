@@ -659,6 +659,12 @@
       "setup": "What do you call cheese by itself?",
       "punchline": "Provolone.",
       "length": 44
+    },
+    {
+      "date": "2026-03-10",
+      "setup": "3 SQL statements walk into a NoSQL bar. Soon, they walk out",
+      "punchline": "They couldn't find a table.",
+      "length": 86
     }
   ]
 }
