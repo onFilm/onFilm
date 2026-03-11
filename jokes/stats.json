@@ -665,6 +665,12 @@
       "setup": "3 SQL statements walk into a NoSQL bar. Soon, they walk out",
       "punchline": "They couldn't find a table.",
       "length": 86
+    },
+    {
+      "date": "2026-03-11",
+      "setup": "How do you get two whales in a car?",
+      "punchline": "Start in England and drive West.",
+      "length": 67
     }
   ]
 }

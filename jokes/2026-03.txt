@@ -28,3 +28,6 @@
 ----- 2026-03-10 -----
 <strong>Setup:</strong> 3 SQL statements walk into a NoSQL bar. Soon, they walk out<br><strong>Punchline:</strong> They couldn't find a table.
 
+----- 2026-03-11 -----
+<strong>Setup:</strong> How do you get two whales in a car?<br><strong>Punchline:</strong> Start in England and drive West.
+
