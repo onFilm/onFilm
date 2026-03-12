@@ -671,6 +671,12 @@
       "setup": "How do you get two whales in a car?",
       "punchline": "Start in England and drive West.",
       "length": 67
+    },
+    {
+      "date": "2026-03-12",
+      "setup": "I couldn't get a reservation at the library...",
+      "punchline": "They were fully booked.",
+      "length": 69
     }
   ]
 }
