@@ -677,6 +677,12 @@
       "setup": "I couldn't get a reservation at the library...",
       "punchline": "They were fully booked.",
       "length": 69
+    },
+    {
+      "date": "2026-03-13",
+      "setup": "What type of music do balloons hate?",
+      "punchline": "Pop music!",
+      "length": 46
     }
   ]
 }
