@@ -695,6 +695,12 @@
       "setup": "What has ears but cannot hear?",
       "punchline": "A field of corn.",
       "length": 46
+    },
+    {
+      "date": "2026-03-16",
+      "setup": "What do you get when you cross a React developer with a mathematician?",
+      "punchline": "A function component.",
+      "length": 91
     }
   ]
 }
