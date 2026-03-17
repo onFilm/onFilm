@@ -46,3 +46,6 @@
 ----- 2026-03-16 -----
 <strong>Setup:</strong> What do you get when you cross a React developer with a mathematician?<br><strong>Punchline:</strong> A function component.
 
+----- 2026-03-17 -----
+<strong>Setup:</strong> What does C.S. Lewis keep at the back of his wardrobe?<br><strong>Punchline:</strong> Narnia business!
+
