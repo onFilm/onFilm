@@ -52,3 +52,6 @@
 ----- 2026-03-18 -----
 <strong>Setup:</strong> How do you make a hankie dance?<br><strong>Punchline:</strong> Put a little boogie in it.
 
+----- 2026-03-19 -----
+<strong>Setup:</strong> Why was the JavaScript developer sad?<br><strong>Punchline:</strong> He didn't know how to null his feelings.
+
