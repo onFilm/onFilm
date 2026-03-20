@@ -55,3 +55,6 @@
 ----- 2026-03-19 -----
 <strong>Setup:</strong> Why was the JavaScript developer sad?<br><strong>Punchline:</strong> He didn't know how to null his feelings.
 
+----- 2026-03-20 -----
+<strong>Setup:</strong> What's brown and sticky?<br><strong>Punchline:</strong> A stick.
+
