@@ -725,6 +725,12 @@
       "setup": "What's brown and sticky?",
       "punchline": "A stick.",
       "length": 32
+    },
+    {
+      "date": "2026-03-21",
+      "setup": "What do you get when you cross a bee and a sheep?",
+      "punchline": "A bah-humbug.",
+      "length": 62
     }
   ]
 }
