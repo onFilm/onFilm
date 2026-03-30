@@ -779,6 +779,12 @@
       "setup": "What do you call a bear with no teeth?",
       "punchline": "A gummy bear!",
       "length": 51
+    },
+    {
+      "date": "2026-03-30",
+      "setup": "Why didn't the number 4 get into the nightclub?",
+      "punchline": "Because he is 2 square.",
+      "length": 70
     }
   ]
 }
