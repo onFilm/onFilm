@@ -809,6 +809,12 @@
       "setup": "Why can't your nose be 12 inches long?",
       "punchline": "Because then it'd be a foot!",
       "length": 66
+    },
+    {
+      "date": "2026-04-04",
+      "setup": "What do you call a droid that takes the long way around?",
+      "punchline": "R2 detour.",
+      "length": 66
     }
   ]
 }
