@@ -13,3 +13,6 @@
 ----- 2026-04-05 -----
 <strong>Setup:</strong> What is the tallest building in the world?<br><strong>Punchline:</strong> The library, it’s got the most stories!
 
+----- 2026-04-06 -----
+<strong>Setup:</strong> The Sergeant-Major growled at the young soldier: I didn’t see you at camouflage training this morning.<br><strong>Punchline:</strong> Thank you very much, sir.
+

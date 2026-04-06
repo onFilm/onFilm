@@ -821,6 +821,12 @@
       "setup": "What is the tallest building in the world?",
       "punchline": "The library, it’s got the most stories!",
       "length": 81
+    },
+    {
+      "date": "2026-04-06",
+      "setup": "The Sergeant-Major growled at the young soldier: I didn’t see you at camouflage training this morning.",
+      "punchline": "Thank you very much, sir.",
+      "length": 127
     }
   ]
 }
