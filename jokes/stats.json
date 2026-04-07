@@ -827,6 +827,12 @@
       "setup": "The Sergeant-Major growled at the young soldier: I didn’t see you at camouflage training this morning.",
       "punchline": "Thank you very much, sir.",
       "length": 127
+    },
+    {
+      "date": "2026-04-07",
+      "setup": "Why did the tree go to the dentist?",
+      "punchline": "It needed a root canal.",
+      "length": 58
     }
   ]
 }
