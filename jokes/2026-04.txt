@@ -43,3 +43,6 @@
 ----- 2026-04-15 -----
 <strong>Setup:</strong> Why did the rooster cross the road?<br><strong>Punchline:</strong> He heard that the chickens at KFC were pretty hot.
 
+----- 2026-04-16 -----
+<strong>Setup:</strong> How many React developers does it take to change a lightbulb?<br><strong>Punchline:</strong> None, they prefer dark mode.
+

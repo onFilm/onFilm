@@ -881,6 +881,12 @@
       "setup": "Why did the rooster cross the road?",
       "punchline": "He heard that the chickens at KFC were pretty hot.",
       "length": 85
+    },
+    {
+      "date": "2026-04-16",
+      "setup": "How many React developers does it take to change a lightbulb?",
+      "punchline": "None, they prefer dark mode.",
+      "length": 89
     }
   ]
 }
