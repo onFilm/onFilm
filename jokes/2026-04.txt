@@ -46,3 +46,6 @@
 ----- 2026-04-16 -----
 <strong>Setup:</strong> How many React developers does it take to change a lightbulb?<br><strong>Punchline:</strong> None, they prefer dark mode.
 
+----- 2026-04-17 -----
+<strong>Setup:</strong> Lady: How do I spread love in this cruel world?<br><strong>Punchline:</strong> Random Dude: [...💘]
+
