@@ -911,6 +911,12 @@
       "setup": "Want to hear my pizza joke?",
       "punchline": "Never mind, it's too cheesy.",
       "length": 55
+    },
+    {
+      "date": "2026-04-22",
+      "setup": "How do you get a baby alien to sleep?",
+      "punchline": "You rocket.",
+      "length": 48
     }
   ]
 }
