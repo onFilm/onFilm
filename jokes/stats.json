@@ -941,6 +941,12 @@
       "setup": "Why are “Dad Jokes” so good?",
       "punchline": "Because the punchline is apparent.",
       "length": 62
+    },
+    {
+      "date": "2026-04-27",
+      "setup": "Where did the API go to eat?",
+      "punchline": "To the RESTaurant.",
+      "length": 46
     }
   ]
 }

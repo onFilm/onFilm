@@ -73,3 +73,6 @@
 ----- 2026-04-26 -----
 <strong>Setup:</strong> Why are “Dad Jokes” so good?<br><strong>Punchline:</strong> Because the punchline is apparent.
 
+----- 2026-04-27 -----
+<strong>Setup:</strong> Where did the API go to eat?<br><strong>Punchline:</strong> To the RESTaurant.
+
