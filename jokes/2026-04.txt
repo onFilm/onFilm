@@ -76,3 +76,6 @@
 ----- 2026-04-27 -----
 <strong>Setup:</strong> Where did the API go to eat?<br><strong>Punchline:</strong> To the RESTaurant.
 
+----- 2026-04-28 -----
+<strong>Setup:</strong> Did you hear about the crime in the parking garage?<br><strong>Punchline:</strong> It was wrong on so many levels.
+
