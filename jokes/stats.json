@@ -983,6 +983,12 @@
       "setup": "How many bones are in the human hand?",
       "punchline": "A handful of them.",
       "length": 55
+    },
+    {
+      "date": "2026-05-04",
+      "setup": "What do you get when you cross a snowman with a vampire?",
+      "punchline": "Frostbite.",
+      "length": 66
     }
   ]
 }
