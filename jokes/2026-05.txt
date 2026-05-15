@@ -37,3 +37,6 @@
 ----- 2026-05-14 -----
 <strong>Setup:</strong> A user interface is like a joke.<br><strong>Punchline:</strong> If you have to explain it then it is not that good.
 
+----- 2026-05-15 -----
+<strong>Setup:</strong> What does C.S. Lewis keep at the back of his wardrobe?<br><strong>Punchline:</strong> Narnia business!
+
