@@ -1049,6 +1049,12 @@
       "setup": "What does C.S. Lewis keep at the back of his wardrobe?",
       "punchline": "Narnia business!",
       "length": 70
+    },
+    {
+      "date": "2026-05-16",
+      "setup": "Why do C# and Java developers keep breaking their keyboards?",
+      "punchline": "Because they use a strongly typed language.",
+      "length": 103
     }
   ]
 }
