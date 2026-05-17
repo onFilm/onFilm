@@ -43,3 +43,6 @@
 ----- 2026-05-16 -----
 <strong>Setup:</strong> Why do C# and Java developers keep breaking their keyboards?<br><strong>Punchline:</strong> Because they use a strongly typed language.
 
+----- 2026-05-17 -----
+<strong>Setup:</strong> Did you hear about the two silk worms in a race?<br><strong>Punchline:</strong> It ended in a tie.
+
