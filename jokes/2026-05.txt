@@ -52,3 +52,6 @@
 ----- 2026-05-19 -----
 <strong>Setup:</strong> How do you check if a webpage is HTML5?<br><strong>Punchline:</strong> Try it out on Internet Explorer
 
+----- 2026-05-20 -----
+<strong>Setup:</strong> Why didn't the number 4 get into the nightclub?<br><strong>Punchline:</strong> Because he is 2 square.
+
