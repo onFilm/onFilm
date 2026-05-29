@@ -1121,6 +1121,12 @@
       "setup": "What do you call a pig that knows karate?",
       "punchline": "A pork chop!",
       "length": 53
+    },
+    {
+      "date": "2026-05-29",
+      "setup": "Why does a Moon-rock taste better than an Earth-rock?",
+      "punchline": "Because it's a little meteor.",
+      "length": 82
     }
   ]
 }
