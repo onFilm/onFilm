@@ -1163,6 +1163,12 @@
       "setup": "What do you call a careful wolf?",
       "punchline": "Aware wolf.",
       "length": 43
+    },
+    {
+      "date": "2026-06-05",
+      "setup": "Why did the programmer bring a ladder to work?",
+      "punchline": "They heard the code needed to be debugged from a higher level.",
+      "length": 108
     }
   ]
 }

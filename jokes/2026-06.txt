@@ -10,3 +10,6 @@
 ----- 2026-06-04 -----
 <strong>Setup:</strong> What do you call a careful wolf?<br><strong>Punchline:</strong> Aware wolf.
 
+----- 2026-06-05 -----
+<strong>Setup:</strong> Why did the programmer bring a ladder to work?<br><strong>Punchline:</strong> They heard the code needed to be debugged from a higher level.
+
