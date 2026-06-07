@@ -1175,6 +1175,12 @@
       "setup": "What do you get when you cross a snowman with a vampire?",
       "punchline": "Frostbite.",
       "length": 66
+    },
+    {
+      "date": "2026-06-07",
+      "setup": "How do you fix a broken pizza?",
+      "punchline": "With tomato paste.",
+      "length": 48
     }
   ]
 }
