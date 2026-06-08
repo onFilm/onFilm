@@ -1181,6 +1181,12 @@
       "setup": "How do you fix a broken pizza?",
       "punchline": "With tomato paste.",
       "length": 48
+    },
+    {
+      "date": "2026-06-08",
+      "setup": "What do you call a fly without wings?",
+      "punchline": "A walk.",
+      "length": 44
     }
   ]
 }
