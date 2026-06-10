@@ -25,3 +25,6 @@
 ----- 2026-06-09 -----
 <strong>Setup:</strong> Why did the fireman wear red, white, and blue suspenders?<br><strong>Punchline:</strong> To hold his pants up.
 
+----- 2026-06-10 -----
+<strong>Setup:</strong> An IPv6 packet is walking out of the house.<br><strong>Punchline:</strong> He goes nowhere.
+
