@@ -1199,6 +1199,12 @@
       "setup": "An IPv6 packet is walking out of the house.",
       "punchline": "He goes nowhere.",
       "length": 59
+    },
+    {
+      "date": "2026-06-11",
+      "setup": "Did you watch the new comic book movie?",
+      "punchline": "It was very graphic!",
+      "length": 59
     }
   ]
 }
