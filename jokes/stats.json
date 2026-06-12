@@ -1205,6 +1205,12 @@
       "setup": "Did you watch the new comic book movie?",
       "punchline": "It was very graphic!",
       "length": 59
+    },
+    {
+      "date": "2026-06-12",
+      "setup": "What did the dog say to the two trees?",
+      "punchline": "Bark bark.",
+      "length": 48
     }
   ]
 }
