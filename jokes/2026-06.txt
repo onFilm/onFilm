@@ -34,3 +34,6 @@
 ----- 2026-06-12 -----
 <strong>Setup:</strong> What did the dog say to the two trees?<br><strong>Punchline:</strong> Bark bark.
 
+----- 2026-06-13 -----
+<strong>Setup:</strong> Why was the font always tired?<br><strong>Punchline:</strong> It was always bold.
+
