@@ -1247,6 +1247,12 @@
       "setup": "How many tickles does it take to tickle an octopus?",
       "punchline": "Ten-tickles!",
       "length": 63
+    },
+    {
+      "date": "2026-06-19",
+      "setup": "Where do rabbits go after they get married?",
+      "punchline": "On a bunny-moon.",
+      "length": 59
     }
   ]
 }
