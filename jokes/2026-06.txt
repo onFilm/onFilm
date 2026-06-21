@@ -58,3 +58,6 @@
 ----- 2026-06-20 -----
 <strong>Setup:</strong> Why don't programmers like nature?<br><strong>Punchline:</strong> Too many bugs.
 
+----- 2026-06-21 -----
+<strong>Setup:</strong> Is there a hole in your shoe?<br><strong>Punchline:</strong> No… Then how’d you get your foot in it?
+
