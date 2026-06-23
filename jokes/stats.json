@@ -1265,6 +1265,12 @@
       "setup": "Is there a hole in your shoe?",
       "punchline": "No… Then how’d you get your foot in it?",
       "length": 68
+    },
+    {
+      "date": "2026-06-23",
+      "setup": "How many hipsters does it take to change a lightbulb?",
+      "punchline": "Oh, it's a really obscure number. You've probably never heard of it.",
+      "length": 121
     }
   ]
 }
