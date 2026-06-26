@@ -1283,6 +1283,12 @@
       "setup": "What did the beaver say to the tree?",
       "punchline": "It's been nice gnawing you.",
       "length": 63
+    },
+    {
+      "date": "2026-06-26",
+      "setup": "What do you call an old snowman?",
+      "punchline": "Water.",
+      "length": 38
     }
   ]
 }
