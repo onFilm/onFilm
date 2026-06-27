@@ -1289,6 +1289,12 @@
       "setup": "What do you call an old snowman?",
       "punchline": "Water.",
       "length": 38
+    },
+    {
+      "date": "2026-06-27",
+      "setup": "What did the late tomato say to the early tomato?",
+      "punchline": "I’ll ketch up",
+      "length": 62
     }
   ]
 }
