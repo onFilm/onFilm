@@ -76,3 +76,6 @@
 ----- 2026-06-27 -----
 <strong>Setup:</strong> What did the late tomato say to the early tomato?<br><strong>Punchline:</strong> I’ll ketch up
 
+----- 2026-06-28 -----
+<strong>Setup:</strong> Why was the font always tired?<br><strong>Punchline:</strong> It was always bold.
+

@@ -1295,6 +1295,12 @@
       "setup": "What did the late tomato say to the early tomato?",
       "punchline": "I’ll ketch up",
       "length": 62
+    },
+    {
+      "date": "2026-06-28",
+      "setup": "Why was the font always tired?",
+      "punchline": "It was always bold.",
+      "length": 49
     }
   ]
 }
