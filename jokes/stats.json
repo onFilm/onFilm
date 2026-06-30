@@ -1307,6 +1307,12 @@
       "setup": "A termite walks into a bar and says...",
       "punchline": "'Where is the bar tended?'",
       "length": 64
+    },
+    {
+      "date": "2026-06-30",
+      "setup": "What is this movie about?",
+      "punchline": "It is about 2 hours long.",
+      "length": 50
     }
   ]
 }
