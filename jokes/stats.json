@@ -1313,6 +1313,12 @@
       "setup": "What is this movie about?",
       "punchline": "It is about 2 hours long.",
       "length": 50
+    },
+    {
+      "date": "2026-07-01",
+      "setup": "I just watched a documentary about beavers.",
+      "punchline": "It was the best dam show I ever saw",
+      "length": 78
     }
   ]
 }
