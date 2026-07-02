@@ -1319,6 +1319,12 @@
       "setup": "I just watched a documentary about beavers.",
       "punchline": "It was the best dam show I ever saw",
       "length": 78
+    },
+    {
+      "date": "2026-07-02",
+      "setup": "What do you call a computer mouse that swears a lot?",
+      "punchline": "A cursor!",
+      "length": 61
     }
   ]
 }
