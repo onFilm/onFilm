@@ -1325,6 +1325,12 @@
       "setup": "What do you call a computer mouse that swears a lot?",
       "punchline": "A cursor!",
       "length": 61
+    },
+    {
+      "date": "2026-07-03",
+      "setup": "Why didn't the skeleton go for prom?",
+      "punchline": "Because it had nobody.",
+      "length": 58
     }
   ]
 }
