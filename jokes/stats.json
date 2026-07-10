@@ -1367,6 +1367,12 @@
       "setup": "Do you know where you can get chicken broth in bulk?",
       "punchline": "The stock market.",
       "length": 69
+    },
+    {
+      "date": "2026-07-10",
+      "setup": "Did you hear about the runner who was criticized?",
+      "punchline": "He just took it in stride",
+      "length": 74
     }
   ]
 }
