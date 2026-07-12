@@ -1379,6 +1379,12 @@
       "setup": "What do you call a cow on a trampoline?",
       "punchline": "A milk shake!",
       "length": 52
+    },
+    {
+      "date": "2026-07-12",
+      "setup": "Hey, wanna hear a joke?",
+      "punchline": "Parsing HTML with regex.",
+      "length": 47
     }
   ]
 }

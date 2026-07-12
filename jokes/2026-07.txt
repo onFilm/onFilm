@@ -31,3 +31,6 @@
 ----- 2026-07-11 -----
 <strong>Setup:</strong> What do you call a cow on a trampoline?<br><strong>Punchline:</strong> A milk shake!
 
+----- 2026-07-12 -----
+<strong>Setup:</strong> Hey, wanna hear a joke?<br><strong>Punchline:</strong> Parsing HTML with regex.
+
