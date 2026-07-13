@@ -34,3 +34,6 @@
 ----- 2026-07-12 -----
 <strong>Setup:</strong> Hey, wanna hear a joke?<br><strong>Punchline:</strong> Parsing HTML with regex.
 
+----- 2026-07-13 -----
+<strong>Setup:</strong> Why did the invisible man turn down the job offer?<br><strong>Punchline:</strong> He couldn't see himself doing it
+
