@@ -55,3 +55,6 @@
 ----- 2026-07-19 -----
 <strong>Setup:</strong> Did you hear about the cheese factory that exploded in France?<br><strong>Punchline:</strong> There was nothing left but de Brie.
 
+----- 2026-07-20 -----
+<strong>Setup:</strong> What do you give a sick lemon?<br><strong>Punchline:</strong> Lemonaid.
+
