@@ -1433,6 +1433,12 @@
       "setup": "What do you give a sick lemon?",
       "punchline": "Lemonaid.",
       "length": 39
+    },
+    {
+      "date": "2026-07-21",
+      "setup": "A DHCP packet walks into a bar and asks for a beer.",
+      "punchline": "Bartender says, \"here, but I’ll need that back in an hour!\"",
+      "length": 110
     }
   ]
 }

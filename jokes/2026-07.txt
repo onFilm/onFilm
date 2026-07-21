@@ -58,3 +58,6 @@
 ----- 2026-07-20 -----
 <strong>Setup:</strong> What do you give a sick lemon?<br><strong>Punchline:</strong> Lemonaid.
 
+----- 2026-07-21 -----
+<strong>Setup:</strong> A DHCP packet walks into a bar and asks for a beer.<br><strong>Punchline:</strong> Bartender says, here, but I’ll need that back in an hour!
+
