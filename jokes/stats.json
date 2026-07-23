@@ -1439,6 +1439,12 @@
       "setup": "A DHCP packet walks into a bar and asks for a beer.",
       "punchline": "Bartender says, \"here, but I’ll need that back in an hour!\"",
       "length": 110
+    },
+    {
+      "date": "2026-07-23",
+      "setup": "Did you hear about the chameleon who couldn't change color?",
+      "punchline": "They had a reptile dysfunction.",
+      "length": 90
     }
   ]
 }
