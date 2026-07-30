@@ -1475,6 +1475,12 @@
       "setup": "Why did the functions stop calling each other?",
       "punchline": "Because they had constant arguments.",
       "length": 82
+    },
+    {
+      "date": "2026-07-30",
+      "setup": "How many React developers does it take to change a lightbulb?",
+      "punchline": "None, they prefer dark mode.",
+      "length": 89
     }
   ]
 }

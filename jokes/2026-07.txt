@@ -79,3 +79,6 @@
 ----- 2026-07-29 -----
 <strong>Setup:</strong> Why did the functions stop calling each other?<br><strong>Punchline:</strong> Because they had constant arguments.
 
+----- 2026-07-30 -----
+<strong>Setup:</strong> How many React developers does it take to change a lightbulb?<br><strong>Punchline:</strong> None, they prefer dark mode.
+
