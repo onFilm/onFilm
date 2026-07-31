@@ -82,3 +82,6 @@
 ----- 2026-07-30 -----
 <strong>Setup:</strong> How many React developers does it take to change a lightbulb?<br><strong>Punchline:</strong> None, they prefer dark mode.
 
+----- 2026-07-31 -----
+<strong>Setup:</strong> What do you get when you cross a React developer with a mathematician?<br><strong>Punchline:</strong> A function component.
+

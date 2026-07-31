@@ -1481,6 +1481,12 @@
       "setup": "How many React developers does it take to change a lightbulb?",
       "punchline": "None, they prefer dark mode.",
       "length": 89
+    },
+    {
+      "date": "2026-07-31",
+      "setup": "What do you get when you cross a React developer with a mathematician?",
+      "punchline": "A function component.",
+      "length": 91
     }
   ]
 }
