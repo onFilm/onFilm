@@ -1493,6 +1493,12 @@
       "setup": "Did you hear the news?",
       "punchline": "FedEx and UPS are merging. They’re going to go by the name Fed-Up from now on.",
       "length": 100
+    },
+    {
+      "date": "2026-08-02",
+      "setup": "Why did the designer break up with their font?",
+      "punchline": "Because it wasn't their type.",
+      "length": 75
     }
   ]
 }
