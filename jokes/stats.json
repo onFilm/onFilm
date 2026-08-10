@@ -1535,6 +1535,12 @@
       "setup": "What is the leading cause of dry skin?",
       "punchline": "Towels",
       "length": 44
+    },
+    {
+      "date": "2026-08-10",
+      "setup": "What's brown and sticky?",
+      "punchline": "A stick.",
+      "length": 32
     }
   ]
 }
