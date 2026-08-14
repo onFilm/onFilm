@@ -34,3 +34,6 @@
 ----- 2026-08-13 -----
 <strong>Setup:</strong> What do you call a sheep with no legs?<br><strong>Punchline:</strong> A cloud.
 
+----- 2026-08-14 -----
+<strong>Setup:</strong> Why did the programmer quit their job?<br><strong>Punchline:</strong> They didn't get arrays.
+

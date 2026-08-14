@@ -1559,6 +1559,12 @@
       "setup": "What do you call a sheep with no legs?",
       "punchline": "A cloud.",
       "length": 46
+    },
+    {
+      "date": "2026-08-14",
+      "setup": "Why did the programmer quit their job?",
+      "punchline": "They didn't get arrays.",
+      "length": 61
     }
   ]
 }
