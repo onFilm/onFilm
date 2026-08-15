@@ -37,3 +37,6 @@
 ----- 2026-08-14 -----
 <strong>Setup:</strong> Why did the programmer quit their job?<br><strong>Punchline:</strong> They didn't get arrays.
 
+----- 2026-08-15 -----
+<strong>Setup:</strong> Why did the chicken cross the playground?<br><strong>Punchline:</strong> To get to the other slide.
+

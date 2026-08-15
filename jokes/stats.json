@@ -1565,6 +1565,12 @@
       "setup": "Why did the programmer quit their job?",
       "punchline": "They didn't get arrays.",
       "length": 61
+    },
+    {
+      "date": "2026-08-15",
+      "setup": "Why did the chicken cross the playground?",
+      "punchline": "To get to the other slide.",
+      "length": 67
     }
   ]
 }
