@@ -1595,6 +1595,12 @@
       "setup": "Why do pirates not know the alphabet?",
       "punchline": "They always get stuck at \"C\".",
       "length": 66
+    },
+    {
+      "date": "2026-08-20",
+      "setup": "Why did the programmer always carry a pencil?",
+      "punchline": "They preferred to write in C#.",
+      "length": 75
     }
   ]
 }

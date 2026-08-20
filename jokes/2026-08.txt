@@ -52,3 +52,6 @@
 ----- 2026-08-19 -----
 <strong>Setup:</strong> Why do pirates not know the alphabet?<br><strong>Punchline:</strong> They always get stuck at C.
 
+----- 2026-08-20 -----
+<strong>Setup:</strong> Why did the programmer always carry a pencil?<br><strong>Punchline:</strong> They preferred to write in C#.
+
