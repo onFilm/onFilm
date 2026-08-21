@@ -55,3 +55,6 @@
 ----- 2026-08-20 -----
 <strong>Setup:</strong> Why did the programmer always carry a pencil?<br><strong>Punchline:</strong> They preferred to write in C#.
 
+----- 2026-08-21 -----
+<strong>Setup:</strong> Why did Dracula lie in the wrong coffin?<br><strong>Punchline:</strong> He made a grave mistake.
+
