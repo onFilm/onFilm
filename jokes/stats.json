@@ -1613,6 +1613,12 @@
       "setup": "What did the fish say when it swam into a wall?",
       "punchline": "Damn!",
       "length": 52
+    },
+    {
+      "date": "2026-08-24",
+      "setup": "How many bones are in the human hand?",
+      "punchline": "A handful of them.",
+      "length": 55
     }
   ]
 }
