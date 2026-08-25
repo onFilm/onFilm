@@ -1619,6 +1619,12 @@
       "setup": "How many bones are in the human hand?",
       "punchline": "A handful of them.",
       "length": 55
+    },
+    {
+      "date": "2026-08-25",
+      "setup": "What do you do on a remote island?",
+      "punchline": "Try and find the TV island it belongs to.",
+      "length": 75
     }
   ]
 }
