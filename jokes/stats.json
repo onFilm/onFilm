@@ -1625,6 +1625,12 @@
       "setup": "What do you do on a remote island?",
       "punchline": "Try and find the TV island it belongs to.",
       "length": 75
+    },
+    {
+      "date": "2026-08-26",
+      "setup": "Why don't eggs tell jokes?",
+      "punchline": "Because they would crack each other up.",
+      "length": 65
     }
   ]
 }
