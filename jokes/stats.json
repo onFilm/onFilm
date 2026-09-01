@@ -1661,6 +1661,12 @@
       "setup": "When is a door not a door?",
       "punchline": "When it's ajar.",
       "length": 41
+    },
+    {
+      "date": "2026-09-01",
+      "setup": "What's the best thing about a Boolean?",
+      "punchline": "Even if you're wrong, you're only off by a bit.",
+      "length": 85
     }
   ]
 }
