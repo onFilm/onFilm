@@ -4,3 +4,6 @@
 ----- 2026-09-02 -----
 <strong>Setup:</strong> Why does Norway have barcodes on their battleships?<br><strong>Punchline:</strong> So when they get back to port, they can Scandinavian.
 
+----- 2026-09-03 -----
+<strong>Setup:</strong> Why would a guitarist become a good programmer?<br><strong>Punchline:</strong> He's adept at riffing in C#.
+
