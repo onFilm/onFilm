@@ -1685,6 +1685,12 @@
       "setup": "What is the tallest building in the world?",
       "punchline": "The library, it’s got the most stories!",
       "length": 81
+    },
+    {
+      "date": "2026-09-05",
+      "setup": "Why do programmers prefer dark chocolate?",
+      "punchline": "Because it's bitter like their code.",
+      "length": 77
     }
   ]
 }
