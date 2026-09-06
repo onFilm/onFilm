@@ -13,3 +13,6 @@
 ----- 2026-09-05 -----
 <strong>Setup:</strong> Why do programmers prefer dark chocolate?<br><strong>Punchline:</strong> Because it's bitter like their code.
 
+----- 2026-09-06 -----
+<strong>Setup:</strong> Did you hear about the cheese factory that exploded in France?<br><strong>Punchline:</strong> There was nothing left but de Brie.
+
