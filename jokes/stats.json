@@ -1733,6 +1733,12 @@
       "setup": "What kind of award did the dentist receive?",
       "punchline": "A little plaque.",
       "length": 59
+    },
+    {
+      "date": "2026-09-13",
+      "setup": "What did the duck say when he bought lipstick?",
+      "punchline": "Put it on my bill",
+      "length": 63
     }
   ]
 }
