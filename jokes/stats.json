@@ -1739,6 +1739,12 @@
       "setup": "What did the duck say when he bought lipstick?",
       "punchline": "Put it on my bill",
       "length": 63
+    },
+    {
+      "date": "2026-09-14",
+      "setup": "I saw a nice stereo on Craigslist for $1. Seller says the volume is stuck on ‘high’",
+      "punchline": "I couldn’t turn it down.",
+      "length": 107
     }
   ]
 }
