@@ -1751,6 +1751,12 @@
       "setup": "What did one plate say to the other plate?",
       "punchline": "Dinner is on me!",
       "length": 58
+    },
+    {
+      "date": "2026-09-16",
+      "setup": "Why did the scarecrow win an award?",
+      "punchline": "Because he was outstanding in his field.",
+      "length": 75
     }
   ]
 }
