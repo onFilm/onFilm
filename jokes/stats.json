@@ -1769,6 +1769,12 @@
       "setup": "I started a new business making yachts in my attic this year...",
       "punchline": "The sails are going through the roof.",
       "length": 100
+    },
+    {
+      "date": "2026-09-19",
+      "setup": "When do doctors get angry?",
+      "punchline": "When they run out of patients.",
+      "length": 56
     }
   ]
 }
