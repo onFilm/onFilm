@@ -73,3 +73,6 @@
 ----- 2026-09-25 -----
 <strong>Setup:</strong> Why did the programmer bring a ladder to work?<br><strong>Punchline:</strong> They heard the code needed to be debugged from a higher level.
 
+----- 2026-09-26 -----
+<strong>Setup:</strong> Why did the cookie cry?<br><strong>Punchline:</strong> It was feeling crumby.
+
