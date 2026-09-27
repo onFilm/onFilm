@@ -76,3 +76,6 @@
 ----- 2026-09-26 -----
 <strong>Setup:</strong> Why did the cookie cry?<br><strong>Punchline:</strong> It was feeling crumby.
 
+----- 2026-09-27 -----
+<strong>Setup:</strong> Why did the developer go to therapy?<br><strong>Punchline:</strong> They had too many unresolved issues.
+
