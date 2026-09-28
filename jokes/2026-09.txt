@@ -79,3 +79,6 @@
 ----- 2026-09-27 -----
 <strong>Setup:</strong> Why did the developer go to therapy?<br><strong>Punchline:</strong> They had too many unresolved issues.
 
+----- 2026-09-28 -----
+<strong>Setup:</strong> How do you fix a broken pizza?<br><strong>Punchline:</strong> With tomato paste.
+
