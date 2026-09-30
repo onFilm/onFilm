@@ -1835,6 +1835,12 @@
       "setup": "What did the traffic light say to the car as it passed?",
       "punchline": "Don't look I'm changing!",
       "length": 79
+    },
+    {
+      "date": "2026-09-30",
+      "setup": "Why don't skeletons fight each other?",
+      "punchline": "They don't have the guts.",
+      "length": 62
     }
   ]
 }
