@@ -1847,6 +1847,12 @@
       "setup": "My older brother always tore the last pages of my comic books, and never told me why.",
       "punchline": "I had to draw my own conclusions.",
       "length": 118
+    },
+    {
+      "date": "2026-10-02",
+      "setup": "What’s the object-oriented way to become wealthy?",
+      "punchline": "Inheritance.",
+      "length": 61
     }
   ]
 }
