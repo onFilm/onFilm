@@ -1859,6 +1859,12 @@
       "setup": "What did the dog say to the two trees?",
       "punchline": "Bark bark.",
       "length": 48
+    },
+    {
+      "date": "2026-10-04",
+      "setup": "Why didn’t the skeleton cross the road?",
+      "punchline": "Because he had no guts.",
+      "length": 62
     }
   ]
 }
