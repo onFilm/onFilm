@@ -31,3 +31,6 @@
 ----- 2026-10-11 -----
 <strong>Setup:</strong> How do you make a hankie dance?<br><strong>Punchline:</strong> Put a little boogie in it.
 
+----- 2026-10-12 -----
+<strong>Setup:</strong> Why did the programmer quit their job?<br><strong>Punchline:</strong> They didn't get arrays.
+
