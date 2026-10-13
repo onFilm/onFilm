@@ -34,3 +34,6 @@
 ----- 2026-10-12 -----
 <strong>Setup:</strong> Why did the programmer quit their job?<br><strong>Punchline:</strong> They didn't get arrays.
 
+----- 2026-10-13 -----
+<strong>Setup:</strong> Did you hear about the hungry clock?<br><strong>Punchline:</strong> It went back four seconds.
+
