@@ -1961,6 +1961,12 @@
       "setup": "What cheese can never be yours?",
       "punchline": "Nacho cheese.",
       "length": 44
+    },
+    {
+      "date": "2026-10-21",
+      "setup": "Why did the programmer quit their job?",
+      "punchline": "They didn't get arrays.",
+      "length": 61
     }
   ]
 }

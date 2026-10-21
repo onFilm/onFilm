@@ -58,3 +58,6 @@
 ----- 2026-10-20 -----
 <strong>Setup:</strong> What cheese can never be yours?<br><strong>Punchline:</strong> Nacho cheese.
 
+----- 2026-10-21 -----
+<strong>Setup:</strong> Why did the programmer quit their job?<br><strong>Punchline:</strong> They didn't get arrays.
+
