@@ -61,3 +61,6 @@
 ----- 2026-10-21 -----
 <strong>Setup:</strong> Why did the programmer quit their job?<br><strong>Punchline:</strong> They didn't get arrays.
 
+----- 2026-10-22 -----
+<strong>Setup:</strong> What do you call a suspicious looking laptop?<br><strong>Punchline:</strong> Asus
+

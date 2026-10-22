@@ -1967,6 +1967,12 @@
       "setup": "Why did the programmer quit their job?",
       "punchline": "They didn't get arrays.",
       "length": 61
+    },
+    {
+      "date": "2026-10-22",
+      "setup": "What do you call a suspicious looking laptop?",
+      "punchline": "Asus",
+      "length": 49
     }
   ]
 }
