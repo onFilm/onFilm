@@ -88,3 +88,6 @@
 ----- 2026-10-30 -----
 <strong>Setup:</strong> Did you know you should always take an extra pair of pants golfing?<br><strong>Punchline:</strong> Just in case you get a hole in one.
 
+----- 2026-10-31 -----
+<strong>Setup:</strong> What kind of bagel can fly?<br><strong>Punchline:</strong> A plain bagel.
+
