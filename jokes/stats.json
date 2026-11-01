@@ -2027,6 +2027,12 @@
       "setup": "What kind of bagel can fly?",
       "punchline": "A plain bagel.",
       "length": 41
+    },
+    {
+      "date": "2026-11-01",
+      "setup": "Can I watch the TV?",
+      "punchline": "Yes, but don’t turn it on.",
+      "length": 45
     }
   ]
 }
