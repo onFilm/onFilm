@@ -2033,6 +2033,12 @@
       "setup": "Can I watch the TV?",
       "punchline": "Yes, but don’t turn it on.",
       "length": 45
+    },
+    {
+      "date": "2026-11-02",
+      "setup": "Where’s the bin?",
+      "punchline": "I haven’t been anywhere!",
+      "length": 40
     }
   ]
 }
