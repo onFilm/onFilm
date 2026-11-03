@@ -2039,6 +2039,12 @@
       "setup": "Where’s the bin?",
       "punchline": "I haven’t been anywhere!",
       "length": 40
+    },
+    {
+      "date": "2026-11-03",
+      "setup": "Why did the programmer always mix up Halloween and Christmas?",
+      "punchline": "Because Oct 31 equals Dec 25.",
+      "length": 90
     }
   ]
 }
